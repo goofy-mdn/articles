@@ -13,6 +13,10 @@ if(!is_uploaded_file($tmp_file)) {
     exit("Le fichier est introuvable !");
 }
 
+if(!file_exists($content_dir)) {
+	mkdir("../upload");
+}
+
 $type_file = $_FILES['icon']['type'];
 if(!strstr($type_file, 'jpg') && !strstr($type_file, 'jpeg') && !strstr($type_file, 'bmp') && !strstr($type_file, 'gif') && !strstr($type_file, 'png')) {
     exit("Le fichier n'est pas une image !");
