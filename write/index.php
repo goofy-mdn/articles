@@ -22,11 +22,12 @@
             <option value="Gaming">Gaming</option>
             <option value="Serveur">Serveur</option>
             <option value="Événement">Événement</option>
+	    <option value="Autre">Autre</option>
         </select>
         <br>
         <br>
         <label for="contenu">Contenu de l'article: </label>
-        <textarea id="contenu" style="width:200px; height:100px;" name="content" placeholder="Insérez du texte..."></textarea>
+        <textarea id="contenu" style="width:200px; height:100px;" name="content" placeholder="Insérez du texte…"></textarea>
         <br>
         <input type="submit" value="Valider"/>
 
