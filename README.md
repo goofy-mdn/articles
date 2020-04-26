@@ -10,5 +10,5 @@ L'affichage des articles fonctionne avec jQuery et PHP.
 Lors de l'envoi du formulaire, l'image est alors stockée dans "upload" avec comme nom "<id>.<extension>", les deux stockés dans la base de donnée, qui est alors récupérée sur la page "accueil" grâce à une boucle, avec également le contenu, le titre, et la catégorie de l'article.
   
 **A venir :**
-• Affichage d'article entier sur une page
-• Amélioration de l'affichage responsive
+- Affichage d'article entier sur une page
+- Amélioration de l'affichage responsive
