@@ -40,7 +40,7 @@ else if( !move_uploaded_file($tmp_file, $content_dir . $name_file) )
     exit("Impossible de copier le fichier dans $content_dir");
 }
 
-echo "Votre icon a bien été upload.";
+echo "Votre image a bien été mise en ligne.";
 
 
 date_default_timezone_set('Europe/Paris');
