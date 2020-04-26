@@ -1,0 +1,119 @@
+body {
+    background-image: url('../img/fondarticles.webp');
+    font-family: 'Quicksand', sans-serif;
+    color: #464646;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#bg{
+    margin: 0;
+    padding: 0;
+    background:rgba(39, 39, 39, 0.671);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100vh;
+    position:fixed;
+    overflow: overlay;
+}
+
+#article-container {
+    height: 20rem;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(575px, 1fr));
+    margin-top: 5rem;
+    justify-items: center;
+}
+
+.article {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 1rem;
+    display: flex;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.16);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 1vmin;
+	margin-bottom: 2rem;
+	width: max-content;
+}
+
+.article-content {
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.article-content h1 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin: 0;
+    margin-top: 0.1em;
+}
+
+.article-content span, .article-content p {
+    font-family: 'Segoe UI';
+}
+
+.article-content .text-container {
+    height: max-content;
+    max-height: 40%;
+}
+
+.article-content span {
+    margin-top: 1rem;
+    color: #FF4646;
+    font-size: 0.9rem;
+}
+
+.article-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0.9rem;
+}
+
+.imgcontainer {
+    height: 100%;
+    border-top-left-radius: 1vmin;
+    border-bottom-left-radius: 1vmin;
+    width: 12.5rem;
+    background-image: url('testimg.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.button-main {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.9rem 2rem;
+    background-color: #FF4646;
+    margin-top: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color .3s;
+}
+    
+.button-main:hover {
+    background: #DD3737;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.button-main span {
+    font-size: 1.02rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
